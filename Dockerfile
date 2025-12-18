@@ -7,7 +7,7 @@ RUN apk add --no-cache git && \
     go mod download && \
     CGO_ENABLED=0 go build -ldflags="-s -w" -o "wgcf"
 
-FROM alpine:3.22.1
+FROM alpine:3.23.2
 
 WORKDIR /
 
