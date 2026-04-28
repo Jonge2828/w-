@@ -1,12 +1,10 @@
 module github.com/ViRb3/wgcf/v2
 
-go 1.24.0
-
-toolchain go1.24.1
+go 1.25.0
 
 require (
 	github.com/ViRb3/wgcf/v2/openapi v0.0.0-00010101000000-000000000000
-	github.com/cockroachdb/errors v1.12.0
+	github.com/cockroachdb/errors v1.13.0
 	github.com/dustin/go-humanize v1.0.1
 	github.com/manifoldco/promptui v0.9.0
 	github.com/spf13/cobra v1.10.2
@@ -19,7 +17,7 @@ require (
 	github.com/cockroachdb/logtags v0.0.0-20230118201751-21c54148d20b // indirect
 	github.com/cockroachdb/redact v1.1.5 // indirect
 	github.com/fsnotify/fsnotify v1.9.0 // indirect
-	github.com/getsentry/sentry-go v0.27.0 // indirect
+	github.com/getsentry/sentry-go v0.46.0 // indirect
 	github.com/go-viper/mapstructure/v2 v2.4.0 // indirect
 	github.com/gogo/protobuf v1.3.2 // indirect
 	github.com/inconshreveable/mousetrap v1.1.0 // indirect
